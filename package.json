@@ -1,6 +1,6 @@
 {
   "name": "mongoose-number",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provides Mongoose v2 sub-classed Number with atomic increment/decrement support",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,10 @@
     "url": "git://github.com/aheckmann/mongoose-number.git"
   },
   "peerDependencies": {
-    "mongoose": "3.6.x"
+    "mongoose": ">=3.6.0"
   },
   "devDependencies": {
     "mocha": "*",
-    "mongoose": "3.x"
+    "mongoose": ">=3.0"
   }
 }
